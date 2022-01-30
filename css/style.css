@@ -1,0 +1,364 @@
+/*-------- CSS -------------*/
+/* ------------------Reset--------------------- */
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+iframe {border:0; margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0px;}
+
+/*----------------- global ------------------------*/
+
+div {
+	box-sizing: border-box;
+	
+}
+
+
+body {
+	
+	background: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+.space {
+	width: 100%;
+	height: 150px;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+		
+}
+
+.banner-float {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 1px;
+	z-index: 9999;
+}
+
+.banner-float img {
+	width: 728px;
+	
+}
+
+.head {
+	width: 100%;
+	padding: 20px;
+	background: white;
+	
+}
+
+.logo {
+	display: block;
+	width: 450px;
+	height: 180px;
+	background: url("../img/logo-live-hk.png") center no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+}
+
+.banner1 {
+	width: 100%;
+	display: table;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.banner1 img {
+	display: inline-block;
+	width: 49.8%;
+	border: 1px gold solid;
+	box-sizing: border-box;
+}
+
+.banner2 {
+	width: 100%;
+	display: table;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.banner2 img {
+	display: inline-block;
+	width: 49.5%;
+	border: 1px gold solid;
+	box-sizing: border-box;
+}
+
+.menu {
+	display: block;
+	width: 100%;
+	text-align: center;
+	background: #e00000;
+}
+
+.menu a {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	margin: 0px;
+	font-size: 18px;
+}
+
+.menu a:hover {
+	color: gold;
+}
+
+.content {
+	width: 100%;
+	border: 1px white solid;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	
+}
+
+h3 {
+	font-family: arial;
+	margin: 40px 0px;
+	color: white;
+	font-size: 28px;
+}
+
+.title-head {
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+	
+}
+
+.title-footer {
+	font-size: 28px;
+	text-decoration: none;
+	color: white;
+}
+
+.content p {
+	text-align: left;
+	font-size: 16px;
+	color: white;
+	margin: 10px;
+}
+
+.hk {
+	width: 65%;
+	margin: auto;
+	
+}
+
+.hk table {
+	width: 100%;
+	
+}
+
+.tanggal {
+	width: 100%;
+	text-align: center;
+	background: rgba(224,0,0,1);
+background: -moz-linear-gradient(top, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,0,0,1)), color-stop(100%, rgba(140,0,0,1)));
+background: -webkit-linear-gradient(top, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+background: -o-linear-gradient(top, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+background: linear-gradient(to bottom, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e00000', endColorstr='#8c0000', GradientType=0 );
+color: white;
+font-size: 20px;
+padding: 10px 0px;
+box-sizing: border-box;
+border: 1px solid #989898;
+}
+
+.prize {
+	width: 50%;
+	text-align: center;
+	background: rgba(224,0,0,1);
+background: -moz-linear-gradient(top, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,0,0,1)), color-stop(100%, rgba(140,0,0,1)));
+background: -webkit-linear-gradient(top, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+background: -o-linear-gradient(top, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+background: linear-gradient(to bottom, rgba(224,0,0,1) 0%, rgba(140,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e00000', endColorstr='#8c0000', GradientType=0 );
+color: white;
+font-size: 20px;
+padding: 10px 0px;
+border: 1px solid #989898;
+}
+
+.prizenum {
+	width: 50%;
+	text-align: center;
+	background: white;
+	font-size: 20px;
+	vertical-align: middle;
+	border: 1px solid #989898;
+}
+
+.prizenum img {
+	width: 100px;
+	height: 26px;
+}
+
+.othernum {
+	width: 50%;
+	height: 40px;
+	text-align: center;
+	background: white;
+	font-size: 18px;
+	vertical-align: middle;
+	border: 1px solid #989898;
+	
+}
+
+.othernum img {
+	
+	width: 100px;
+	height: 26px;
+	
+}
+
+.iklan {
+	width: 100%;
+	
+}
+
+.iklan img {
+	width: 100%;
+	
+	
+}
+
+.lassres {
+	width: 65%;
+	margin: auto;
+}
+
+.lassres table {
+	width: 100%;
+	
+}
+
+.t1 {
+	width: 40%;
+	padding: 5px 0px 5px 10px;
+	border: 1px solid #989898;
+	background: white;
+	font-size: 16px;
+}
+
+.t2 {
+	width: 30%;
+	padding: 5px 0px 5px 10px;
+	border: 1px solid #989898;
+	background: white;
+	font-size: 16px;
+}
+
+.t3 {
+	width: 30%;
+	padding: 5px 0px 5px 10px;
+	border: 1px solid #989898;
+	background: white;
+	font-size: 16px;
+}
+
+.kepala {
+	text-align: center;
+	font-size: 20px;
+	background: #d7182a;
+	color: white;
+}
+
+.out-link {
+	list-style-type: square;
+	margin:  0px 35px;
+	color: white;
+}
+
+.out-link a {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-device-width: 1000px) {
+	.container {
+		width: 100%;
+		
+		
+	}
+	
+	.logo {
+	width: 200px;	
+	height: 80px;
+	}
+	
+	.menu a {
+		display: block;
+		font-size: 16px;
+		border: 1px solid white;
+	}
+	
+	.banner1 {
+		display: block;
+		
+	}
+	
+	.banner1 img {
+		display: block;
+		width: 100%;
+	}
+	
+	.hk {
+		width: 100%;
+		
+	}
+	
+	.tanggal {
+		font-size: 16px;
+		
+	}
+	
+	.banner2 {
+		display: block;
+		
+	}
+	
+	.banner2 img {
+		display: block;
+		width: 100%;
+	}
+	
+	.lassres {
+		width: 100%;
+		
+	}
+	
+	h3 {
+		font-size: 14px;
+		
+	}
+	
+	.title-footer {
+		font-size: 14px;
+		
+	}
+	
+	.banner-float {
+		width: 100%;
+		
+	}
+	
+	.banner-float img {
+		width: 100%;
+		
+	}
+	
+}
